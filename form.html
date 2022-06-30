@@ -20,8 +20,13 @@
 
       <main>
         <label for="sex">성 별 : </label>
-        <input id="sex" required type="checkbox" /><label for="sex">남</label>
-        <input id="sexy" type="checkbox" /><label for="sexy">여</label>
+        <input id="sex" required type="radio" name="gender" checked /><label
+          for="sex"
+          >남</label
+        >
+        <input id="sexy" type="radio" name="gender" /><label for="sexy"
+          >여</label
+        >
       </main>
 
       <main>
@@ -48,7 +53,12 @@
 
       <main>
         <label for="email">Email : </label>
-        <input id="email" placeholder="Email" type="email" size="10px" />
+        <input id="email" placeholder="Email" type="email" size="10px" />@
+        <select name="lest" id="em">
+          <option value="naver">naver.com</option>
+          <option value="nate">nate.net</option>
+          <option value="google">goole</option>
+        </select>
       </main>
 
       <main>

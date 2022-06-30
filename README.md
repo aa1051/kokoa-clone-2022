@@ -1,3 +1,3 @@
-# KoKoa Clone 2022 Update
+# 카카오클론 HTML 기초
 
-HTML & CSS are so much fun!
+HTML 기본 문법 이해
